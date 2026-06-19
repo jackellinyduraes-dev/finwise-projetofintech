@@ -1,0 +1,24 @@
+:root {
+    /* Cores principais */
+    --cor-rosa: #FE008B;
+    --cor-rosa-escuro: #CB0854;
+    --cor-roxo-escuro: #63143F;
+    --cor-berinjela: #301B28;
+
+    /* Fundos */
+    --cor-fundo-escuro: #141213;
+    --cor-fundo-card: #252424;
+
+    /* Verdes */
+    --cor-verde-escuro: #17251D;
+    --cor-verde-sage: #97A28C;
+    --cor-verde-cinza: #999B94;
+
+    /* Neutros */
+    --cor-branco: #FDFCFD;
+    --cor-creme: #E9E8DB;
+
+    /* Tipografia */
+    --fonte: 'Inter', sans-serif;
+}
+
