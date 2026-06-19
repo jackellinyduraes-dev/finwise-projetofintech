@@ -86,52 +86,65 @@
 
 
         </div>
-        
-    <!--Painel direito (Login)-->
-    <div class="painel-direito">
 
-            <div class="formulario-login">
-                <h2>Bem-vindo de volta</h2>
-                <p class="formulario-subtexto">Entre para continuar gerenciando suas finanças.</p>
+    <!--Painel direito (Login)-->
+    <!-- ========== PAINEL DIREITO (LOGIN) ========== -->
+        <div class="flex-1 bg-fundo-card flex items-center justify-center p-10">
+
+
+            <div class="w-full max-w-sm">
+
+                <h2 class="text-3xl font-bold mb-2">Bem-vindo de volta</h2>
+                <p class="text-verde-cinza text-sm mb-8">Entre para continuar gerenciando suas finanças.</p>
 
 
                 <form id="form-login">
-                     <!-- CAMPO EMAIL -->
-                    <div class="campo">
-                        <label for="email">E-mail</label>
-                        <div class="input-wrapper">
-                            <span class="input-icone">&#9993;</span>
-                            <input type="email" id="email" placeholder="seu@email.com" required>
+
+
+                    <!-- CAMPO EMAIL -->
+                    <div class="mb-5">
+                        <label for="email" class="block text-sm font-medium text-creme mb-2">E-mail</label>
+                        <div class="flex items-center bg-fundo-escuro border border-gray-700 rounded-lg px-4 py-3 gap-3 focus-within:border-rosa">
+                            <span class="text-verde-cinza">&#9993;</span>
+                            <input type="email" id="email" placeholder="seu@email.com" required
+                                class="flex-1 bg-transparent border-none outline-none text-branco text-sm placeholder-gray-600 font-inter">
                         </div>
                     </div>
 
 
                     <!-- CAMPO SENHA -->
-                    <div class="campo">
-                        <div class="label-row">
-                            <label for="senha">Senha</label>
-                            <a href="#" class="esqueci-senha">Esqueci minha senha</a>
+                    <div class="mb-5">
+                        <div class="flex justify-between items-center mb-2">
+                            <label for="senha" class="text-sm font-medium text-creme">Senha</label>
+                            <a href="#" class="text-xs text-rosa hover:underline">Esqueci minha senha</a>
                         </div>
-                        <div class="input-wrapper">
-                            <span class="input-icone">&#128274;</span>
-                            <input type="password" id="senha" placeholder="••••••••" required>
+                        <div class="flex items-center bg-fundo-escuro border border-gray-700 rounded-lg px-4 py-3 gap-3 focus-within:border-rosa">
+                            <span class="text-verde-cinza">&#128274;</span>
+                            <input type="password" id="senha" placeholder="••••••••" required
+                                class="flex-1 bg-transparent border-none outline-none text-branco text-sm placeholder-gray-600 font-inter">
                         </div>
                     </div>
 
 
-                    <!--Botao Entrar-->
-                    <button type="submit" class="btn-entrar">Entrar &rarr;</button>
+                    <!-- BOTAO ENTRAR -->
+                    <button type="submit"
+                        class="w-full py-3.5 rounded-lg bg-gradient-to-r from-rosa to-roxo-escuro text-branco font-semibold text-base mt-3 hover:opacity-90 transition-opacity">
+                        Entrar &rarr;
+                    </button>
 
 
                 </form>
 
 
-                <p class="criar-conta">Não tem conta? <a href="#">Criar conta</a></p>
+                <p class="text-center mt-6 text-sm text-verde-cinza">
+                    Não tem conta? <a href="#" class="text-rosa font-medium hover:underline">Criar conta</a>
+                </p>
 
             </div>
 
 
         </div>
+
         <!--Fim Painel Direito-->
 
 </body>
