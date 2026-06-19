@@ -41,37 +41,52 @@
 <body class="bg-[#141213] text-[#FDFCFD] font-['Inter'] min-h-screen">
 
    
-    <div class="container">
+    <!-- ========== CONTAINER ========== -->
+    <div class="flex w-full min-h-screen">
 
 
-        <!--Painel Esquerdo-->
-        <div class="painel-esquerdo">
+        <!-- ========== PAINEL ESQUERDO ========== -->
+        <div class="flex-1 bg-fundo-escuro p-10 flex flex-col relative overflow-hidden">
 
 
-                <!--Logo-->
-                <div class="logo">
-                    <div class="logo-icone">&#10022;</div>
-                    <span class="logo-texto">FinWise</span>
+            <!-- Brilho roxo -->
+            <div class="absolute -top-24 -left-24 w-72 h-72 bg-roxo-escuro/60 rounded-full blur-3xl"></div>
+
+            <!-- Brilho verde -->
+            <div class="absolute -bottom-12 left-1/2 -translate-x-1/2 w-96 h-72 bg-verde-escuro/80 rounded-full blur-3xl"></div>
+
+
+            <!-- LOGO -->
+            <div class="flex items-center gap-3 relative z-10">
+                <div class="w-9 h-9 bg-gradient-to-br from-roxo-escuro to-rosa rounded-lg flex items-center justify-center text-lg text-branco">&#10022;</div>
+                <span class="text-xl font-semibold">FinWise</span>
+            </div>
+
+
+            <!-- TITULO E SUBTEXTO -->
+            <div class="flex-1 flex flex-col justify-center relative z-10">
+
+                <h1 class="text-5xl font-bold leading-tight mb-5">
+                    Controle financeiro <span class="text-rosa">simplificado.</span>
+                </h1>
+
+                <p class="text-verde-cinza text-base leading-relaxed max-w-md mb-8">
+                    Visualize seu fluxo de caixa, defina metas e acompanhe investimentos em uma interface clara e moderna.
+                </p>
+
+
+                <!-- TAGS -->
+                <div class="flex gap-3">
+                    <span class="px-4 py-2 border border-verde-sage rounded-full text-xs font-medium text-verde-sage tracking-widest">GASTOS</span>
+                    <span class="px-4 py-2 border border-verde-sage rounded-full text-xs font-medium text-verde-sage tracking-widest">META</span>
+                    <span class="px-4 py-2 border border-verde-sage rounded-full text-xs font-medium text-verde-sage tracking-widest">INVESTIMENTOS</span>
                 </div>
 
+            </div>
 
-                <!--Título e Subtexto-->
-                </div class="painel-esquerdo-conteudo">
-                    <h1>Controle financeiro <span class="destaque">simplificado.</span></h1>
-                    <p class="subtexto">Visualize seu fluxo de caixa, defina metas e acompanhe investimentos em uma interface clara e moderna.</p>
-
-
-                     <!--Tags-->
-                    <div class="tags">
-                        <span class="tag">GASTOS</span>
-                        <span class="tag">METAS</span>
-                        <span class="tag">INVESTIMENTOS</span>
-                    </div>
-        
-                 </div>
 
         </div>
-    </div>
+        
     <!--Painel direito (Login)-->
     <div class="painel-direito">
 
