@@ -1,16 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FinWise - Login</title>
+
+    <!-- Tailwind CSS e configuracao de cores do projeto -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'rosa': '#FE008B',
+                        'rosa-escuro': '#CB0854',
+                        'roxo-escuro': '#63143F',
+                        'berinjela': '#301B28',
+                        'fundo-escuro': '#141213',
+                        'fundo-card': '#252424',
+                        'verde-escuro': '#17251D',
+                        'verde-sage': '#97A28C',
+                        'verde-cinza': '#999B94',
+                        'branco': '#FDFCFD',
+                        'creme': '#E9E8DB',
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+
+<body class="bg-[#141213] text-[#FDFCFD] font-['Inter'] min-h-screen">
+
    
     <div class="container">
 
